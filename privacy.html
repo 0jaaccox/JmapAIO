@@ -21,7 +21,7 @@
 <body>
 <main id="policy">
 <h1>Jmap AIO privacy policy</h1>
-<p class="muted">Effective October 31, 2026</p>
+<p class="muted">Effective November 13, 2026</p>
 
 <p>Jmap AIO is a map app that shows live ships, trains, transit, traffic cameras, earthquakes, and world events from public data feeds. This policy explains what the app does with information about you.</p>
 
@@ -53,9 +53,13 @@
 <table>
   <tr><th>Source</th><th>Used for</th><th>When it's contacted</th></tr>
   <tr><td><a href="https://openfreemap.org/privacy/">OpenFreeMap</a></td><td>Base map</td><td>Always</td></tr>
-  <tr><td><a href="https://www.digitraffic.fi/en/">Fintraffic Digitraffic</a></td><td>Baltic ships, Finnish trains</td><td>Always</td></tr>
+  <tr><td><a href="https://www.digitraffic.fi/en/">Fintraffic Digitraffic</a></td><td>Baltic ships, Finnish trains, Finnish road weather cameras</td><td>Always</td></tr>
   <tr><td><a href="https://www.hsl.fi/en/hsl/open-data">HSL</a></td><td>Helsinki transit</td><td>Always</td></tr>
-  <tr><td><a href="https://www.usgs.gov/policies-and-notices">U.S. Geological Survey</a></td><td>Earthquakes</td><td>Always</td></tr>
+  <tr><td><a href="https://www.usgs.gov/policies-and-notices">U.S. Geological Survey</a></td><td>Earthquakes, volcano cameras, river cameras. River camera images are stored on Amazon Web Services.</td><td>Always</td></tr>
+  <tr><td><a href="https://www.ndbc.noaa.gov/">NOAA National Data Buoy Center</a></td><td>Ocean buoy cameras</td><td>Always</td></tr>
+  <tr><td><a href="https://dot.ca.gov/">Caltrans</a></td><td>California traffic cameras</td><td>Always</td></tr>
+  <tr><td><a href="https://fl511.com">FL511</a>, <a href="https://webcams.nyctmc.org">NYC DOT</a>, <a href="https://deldot.gov">DelDOT</a>, <a href="https://traveler.modot.org">MoDOT</a>, <a href="https://chart.maryland.gov">Maryland CHART</a>, <a href="https://iowadot.gov">Iowa DOT</a>, <a href="https://mdotjboss.state.mi.us/MiDrive/">MDOT</a>, <a href="https://transportation.ky.gov">KYTC</a></td><td>Traffic cameras in Florida, New York City, Delaware, Missouri, Maryland, Iowa, Michigan, and Kentucky. The Florida, Iowa, and Kentucky camera lists are hosted on Esri ArcGIS Online.</td><td>Always</td></tr>
+  <tr><td><a href="https://www.drivebc.ca">DriveBC</a></td><td>British Columbia highway cameras</td><td>Always</td></tr>
   <tr><td><a href="https://www.gdeltproject.org/">The GDELT Project</a></td><td>News-reported violence</td><td>Always</td></tr>
   <tr><td><a href="https://aisstream.io/privacypolicy">AISStream</a></td><td>Ships worldwide</td><td>Only with your AISStream key</td></tr>
   <tr><td><a href="https://511.org/about/privacy">511.org</a></td><td>Bay Area transit</td><td>Only with your 511 token</td></tr>
@@ -63,6 +67,7 @@
   <tr><td><a href="https://www.udottraffic.utah.gov/about/privacy">UDOT</a></td><td>Utah traffic cameras</td><td>Only with your UDOT key</td></tr>
   <tr><td><a href="https://ucdp.uu.se/">Uppsala Conflict Data Program</a></td><td>Conflict events</td><td>Only with your UCDP token</td></tr>
 </table>
+<p>Camera lists load while a camera layer is switched on. When you open a camera, its image or video loads directly from that camera's source.</p>
 <p class="muted">Data is requested only while the app is open on screen. The app stops all requests when you switch away from it.</p>
 
 <h2 id="ads">Ads</h2>
